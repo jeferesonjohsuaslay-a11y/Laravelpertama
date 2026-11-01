@@ -2,7 +2,7 @@
 @section('title', 'Halaman Home')
 @section('content')
     <section class="text-center py-16">
-        <h1 class="text-4xl font-bold mb-4">Halo, saya {{ $nama }} 👋</h1>
+        <h1 class="text-4xl font-bold mb-4">Halo, saya {{ $nama }}</h1>
         <p class="text-gray-600 mb-6">Mahasiswa yang sedang belajar Laravel.</p>
         <a href="/contact" class="bg-sky-500 text-white px-6 py-2 rounded-lg hover:bg-sky-600">
             Hubungi Saya
