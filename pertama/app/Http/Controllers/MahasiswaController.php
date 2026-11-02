@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Student;
 
 class MahasiswaController extends Controller
 {
@@ -18,5 +19,10 @@ class MahasiswaController extends Controller
         return view('mahasiswa', [
             'mahasiswa' => $mahasiswa,
         ]);
+    }
+    public function daftar()
+    {
+        $students = Student::all();
+        return view('daftarstudents', ['students' => $students]);
     }
 }

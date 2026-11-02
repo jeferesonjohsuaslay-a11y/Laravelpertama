@@ -6,6 +6,7 @@
             <a href="/profile" class="{{ request()->is('profile') ? 'text-sky-400' : 'hover:text-sky-300' }}">Profile</a>
             <a href="/contact" class="{{ request()->is('contact') ? 'text-sky-400' : 'hover:text-sky-300' }}">Kontak</a>
             <a href="/mahasiswa" class="{{ request()->is('mahasiswa') ? 'text-sky-400' : 'hover:text-sky-300' }}">Daftar Mahasiswa</a>
+            <a href="/datastudent" class="{{ request()->is('datastudent') ? 'text-sky-400' : 'hover:text-sky-300' }}">Daftar Student Aktif/NonAktif</a>
         </div>
     </nav>
 </header>
